@@ -6,7 +6,7 @@ function App() {
   const onClick = () => setValue((prev) => prev + 1);
   const onChange = (event) => setkeyword(event.target.value);
   const iRunonlyOnce = () => {
-    console.log("i run only once.");
+    console.log("i run only once!");
   };
   useEffect(() => {
     console.log("I run only once.");
